@@ -17,13 +17,14 @@ Product.init(
     },
 
     product_name: {
-      type: DataTypes.STRING,
+//type: DataTypes.STRING,
       allowNull: false,
     },
 
     price: {
-      type: DataTypes.STRING,
+//Decimal
       allowNull: false,
+//Validates that the value is a decimal
     },
 
     stock: {
@@ -32,6 +33,7 @@ Product.init(
 // Set a default value of 10
 //Validates that the value is numeric
     },
+    
     category_id: {
       type: DataTypes.INTEGER,
 // References the `category` model's `id`
