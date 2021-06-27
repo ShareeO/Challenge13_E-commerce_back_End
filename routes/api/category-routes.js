@@ -5,12 +5,21 @@ const { Category, Product } = require('../../models');
 
 router.get('/', (req, res) => {
   // find all categories
-  // be sure to include its associated Products
+// be sure to include its associated Products
+  
+Category.findAll({
+include:[Product]
+  })
+  .then((categories) => {res.json(categories)})
 });
 
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
+
+  User.findOne({
+    attributes: { exclude: ['password']},
+  })
 });
 
 router.post('/', (req, res) => {
