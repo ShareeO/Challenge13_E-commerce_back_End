@@ -56,7 +56,7 @@ router.get("/:id", (req, res) => {
 });
 
 // create new product
-  /* req.body should look like this...
+/* req.body should look like this...
     {
       product_name: "Basketball",
       price: 200.00,
@@ -90,7 +90,7 @@ router.post("/", (req, res) => {
 // update product
 // update product data
 router.put("/:id", (req, res) => {
-    Product.update(req.body, {
+  Product.update(req.body, {
     where: {
       id: req.params.id,
     },
