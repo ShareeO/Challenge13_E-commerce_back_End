@@ -2,7 +2,7 @@
 
 My challenge was to build the back end for an e-commerce site. I took a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, I also needed to create a walkthrough video that demonstrated its functionality and all of the following acceptance criteria. I submited a link to the video and add it to the README of my project.
+Because this application won’t be deployed, I also needed to create a walk-through video that demonstrated its functionality and all of the following acceptance criteria. I submitted a link to the video and add it to the README of my project.
 
 ## User Story
 
@@ -30,7 +30,9 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Getting Started
 
-You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.co m/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables to store sensitive data, like your MySQL username, password, and database name.
+You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and 
+[Sequelize](https://www.npmjs.co m/package/sequelize) packages to connect your Express.js API to a MySQL database and the 
+[dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables to store sensitive data, like your MySQL username, password, and database name.
 
 Use the `schema.sql` file in the `db` folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
 
