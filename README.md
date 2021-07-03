@@ -2,7 +2,9 @@
 
 My challenge was to build the back end for an e-commerce site. I took a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, I also needed to create a walk-through video that demonstrated its functionality and all of the following acceptance criteria. I submitted a link to the video and add it to the README of my project.
+Because this application won’t be deployed, I created a walk-through video that demonstrates its functionality and all of the following acceptance criteria. 
+
+https://drive.google.com/file/d/1fu0HgWFLda14HCqYrw0GkH5dPK-aT2bC/view
 
 ## User Story
 
